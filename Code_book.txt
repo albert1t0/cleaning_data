@@ -1,0 +1,69 @@
+Data set 1: "first_data_set_all_subjects.txt"
+
+group   : Group of subject labels  1 test
+                                   2 train
+
+subject : Code for subject 1 to 30
+
+activity : 1 to 6 labels 1 WALKING
+                         2 WALKING_UPSTAIRS
+                         3 WALKING_DOWNSTAIRS
+                         4 SITTING
+                         5 STANDING
+                         6 LAYING
+
+time_frequency_mean  : Mean for Time Frequency
+time_frequency_sd    : Standard deviation for Time Frequency
+body_acc_x_mean      : Mean for Body acceleration X
+body_acc_x_sd        : Standard deviation for Body acceleration X
+body_acc_y_mean      : Mean for Body acceleration Y
+body_acc_y_sd        : Standard deviation for Body acceleration Y
+body_acc_z_mean      : Mean for Body acceleration Z
+body_acc_z_sd        : Standard deviation for Body acceleration Z
+body_gyro_x_mean     : Mean for Body gyroscope X
+body_gyro_x_sd       : Standard deviation for  Body gyroscope X
+body_gyro_y_mean     : Mean for  Body gyroscope Y
+body_gyro_y_sd       : Standard deviation for  Body gyroscope Y
+body_gyro_z_mean     : Mean for  Body gyroscope Z
+body_gyro_z_sd       : Standard deviation for  Body gyroscope Z
+total_acc_x_mean     : Mean for Total acceleration X
+total_acc_x_sd       : Standard deviation for Total acceleration X
+total_acc_y_mean     : Mean for Total acceleration Y
+total_acc_y_sd       : Standard deviation for Total acceleration Y
+total_acc_z_mean     : Mean for Total acceleration Z
+total_acc_z_sd       : Standard deviation for Total acceleration Z
+
+Data set 2: "second_data_set_summary_subjects.txt"
+
+group   : Group of subject labels  1 test
+                                   2 train
+
+subject : Code for subject 1 to 30
+
+activity : 1 to 6 labels 1 WALKING
+                         2 WALKING_UPSTAIRS
+                         3 WALKING_DOWNSTAIRS
+                         4 SITTING
+                         5 STANDING
+                         6 LAYING
+
+time_frequency_mean  : Mean for Time Frequency
+time_frequency_sd    : Standard deviation for Time Frequency
+body_acc_x_mean      : Mean for Body acceleration X
+body_acc_x_sd        : Standard deviation for Body acceleration X
+body_acc_y_mean      : Mean for Body acceleration Y
+body_acc_y_sd        : Standard deviation for Body acceleration Y
+body_acc_z_mean      : Mean for Body acceleration Z
+body_acc_z_sd        : Standard deviation for Body acceleration Z
+body_gyro_x_mean     : Mean for Body gyroscope X
+body_gyro_x_sd       : Standard deviation for  Body gyroscope X
+body_gyro_y_mean     : Mean for  Body gyroscope Y
+body_gyro_y_sd       : Standard deviation for  Body gyroscope Y
+body_gyro_z_mean     : Mean for  Body gyroscope Z
+body_gyro_z_sd       : Standard deviation for  Body gyroscope Z
+total_acc_x_mean     : Mean for Total acceleration X
+total_acc_x_sd       : Standard deviation for Total acceleration X
+total_acc_y_mean     : Mean for Total acceleration Y
+total_acc_y_sd       : Standard deviation for Total acceleration Y
+total_acc_z_mean     : Mean for Total acceleration Z
+total_acc_z_sd       : Standard deviation for Total acceleration Z

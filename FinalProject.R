@@ -92,12 +92,12 @@ names(train) <- c("group", "subject", "activity",
 # Merginf the two sets - First data set
 all.subjects <- rbind(test,train)
 
+library("dplyr", lib.loc="~/R/x86_64-pc-linux-gnu-library/3.2") # Load dplyr package
+
 ### Create resume data set - Second data set
 subjects <- group_by(all.subjects, subject, activity)
 
 # Resume variables
-
-library("dplyr", lib.loc="~/R/x86_64-pc-linux-gnu-library/3.2") # Load dplyr package
 
 subjects.summary <- summarise(subjects,
                               time_frequency_mean = mean(time_frequency_mean), time_frequency_sd = mean(time_frequency_sd),
